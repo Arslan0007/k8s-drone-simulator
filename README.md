@@ -29,7 +29,7 @@ To demonstrate **Rolling Updates** and **Self-Healing** capabilities in Kubernet
    ```
 3. Monitor the transition:
    ```bash
-   while true; do curl http://localhost:80; sleep 1; don
+   while ($true) { curl http://localhost:80; Start-Sleep -Seconds 1 }
    ```
 4. Trigger the update:
    ```bash
